@@ -1,0 +1,1 @@
+curl -X POST --data-urlencode 'payload={ "attachments": [ { "color": "#000000", "pretext": "'$1'", "fields": [ {"title": "Project Environment","value": "'$2'","short": true}, {"title": "Version","value": "'$3'","short": true} ] } ] }' https://hooks.slack.com/services/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 || true
